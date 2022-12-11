@@ -1,0 +1,19 @@
+{
+    "bot_token": "12345678:fsoihgiueghbsohgb",
+    "chat": -1,
+    "username": "",
+    "password": "",
+    "website_id": "00000000-000000-000000-000000",
+    "msg": [
+        {
+            "type": "in",
+            "msg": "包含測試",
+            "reply": "[自動回覆] 這是包含條件，只要使用者傳送的文本訊息包含 msg 中的內容"
+        },
+        {
+            "type": "equals",
+            "msg": "測試文本",
+            "reply": "[自動回覆] 這是全等條件，需要使用者傳送的文本訊息和 msg 完全一致"
+        }
+    ]
+}

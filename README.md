@@ -48,7 +48,7 @@ cd crisp-chat-bot
 - `website_id`: Crisp 網站 ID
 ![image](https://user-images.githubusercontent.com/93700457/206893912-5bcb9d7c-a4f2-4024-a792-57aa813e5804.png)
 - `msg`: 自動回覆規則，如果不需要自動回覆請寫 `[]`
-```json
+```js
 {
     "type": "in",     // in: 包含  equals: 全等
     "msg": "包含測試", // 關鍵字
